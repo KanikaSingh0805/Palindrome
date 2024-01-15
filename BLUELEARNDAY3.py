@@ -1,6 +1,6 @@
 def is_palindrome(s):
-    s = s.lower()  # Convert the string to lowercase for case-insensitivity
-    s = ''.join(c for c in s if c.isalnum())  # Remove non-alphanumeric characters
+    s = s.lower() 
+    s = ''.join(c for c in s if c.isalnum())  
     return s == s[::-1]
 
 if __name__ == "__main__":
